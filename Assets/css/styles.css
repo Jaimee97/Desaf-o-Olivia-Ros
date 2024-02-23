@@ -1,0 +1,93 @@
+*{
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar{
+    background-color: #373A3C;
+    width: 100vw;
+    z-index: 1;
+}
+
+.nav-link{
+    color: #ffffff;
+}
+
+.bg-header{
+    background-image: url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 560px;
+}
+
+.container-header{
+    max-width: 620px;
+    color: #ffffff;
+    text-align: end;
+    margin-right: 60px;
+}
+
+.container-header p{
+    font-weight: 300;
+}
+
+.buttons button{
+    color: #ffffff;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+.hero-section{
+    padding-top: 56px;
+}
+
+.info-section{
+    margin-top: 66px;
+}
+
+.info-section .anchura{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.card{
+    margin: auto;
+}
+
+.card-img-top{
+    height: 230px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .bg-header{
+        background-image: url(../img/bg-hero.jpg);
+        background-repeat: no-repeat;
+        background-position-x: 30%;
+    }
+    
+    .card{
+        max-width: 80%;
+        margin-bottom: 16px;
+    }
+
+    .card-img-top{
+        height: 180px;
+    }
+
+    .contacto-section{
+        max-width: 90%;
+        margin: 10px auto;
+    }
+
+    .container-header{
+        margin-right: 0;
+    }
+
+    .work-section .card a{
+        border-color: #777777;
+        color: #000000;
+    }
+}
